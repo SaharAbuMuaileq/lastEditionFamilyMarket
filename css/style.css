@@ -1,0 +1,399 @@
+/* 
+الاسم : سحر ابراهيم أبو معيلق
+11/11/2021
+family market-homePage
+ */
+
+ *{
+     margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     font-family: JF;
+ }
+ /* Global Definition start */
+ @font-face {
+     font-family: JF;
+     src: url(../fonts/JF-Flat-regular.ttf);
+ }
+ .flex-row{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ .container{
+     width: 80%;
+ }
+ /* Global Definition end */
+
+ /* navBar start */
+ .navBarSection {
+     background-color: #402f27;
+    min-height: 12vh;
+   
+ }
+ 
+ .navBarSection .navbar .navbar-brand{
+     text-align: center;
+     margin-left: 30px;
+     width: 400px;
+ }
+ .navBarSection .navbar .navbar-brand img{
+     width:100%;
+ }
+ .navBarSection .form-control{
+     width:450px;
+     position: relative;
+     padding-left:50px;
+ }
+ .navBarSection .search{
+    position: absolute;
+    left:380px;
+    background-color: #E4BE96;
+    border-radius: 0;
+    color: #fff;
+}
+.navBarSection input.form-control.mr-sm-2:focus{
+    outline: none;
+    border: none;
+}
+.navBarSection .menu{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.navBarSection .menu li{
+    display: inline-block;
+
+}
+.navBarSection .menu li a{
+    color: #E4BE96;
+    margin-left:18px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+.navBarSection .menu li:first-child{
+    margin-right:70px;
+}
+.navBarSection .menu li:last-child{
+    margin-left: 0;
+}
+.navBarSection .menu li a:hover{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    
+}
+
+
+
+
+@media (max-width:1200px){
+    .navBarSection .menu li{
+        display: flex;
+        flex-direction: column;
+        margin: auto !important;
+        text-align: center !important;
+    
+    }
+    .navBarSection{
+        width: 100%;
+      
+    }
+    .navBarSection img{
+        padding-top: 20px;
+        width: 400px !important;
+        text-align: center;
+    }
+    .navBarSection .menu li a{
+        margin: 15px;
+       
+      
+       
+    }
+    .navBarSection .search{
+       
+        left:0px;
+       margin: auto !important;
+    }
+    .navBarSection .form-control{
+      
+        padding-left:100px;
+    }
+    .navBarSection .navbar{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .navBarSection form{
+       margin: auto;
+     
+        
+    }
+ 
+
+   
+
+}
+
+ /* navBar end */
+ /* productSection start */
+ .productSection{
+    padding: 10px;
+    box-shadow: 0 0 5px 0 #504949 ;
+ }
+ .productSection h6{
+     color: #504949;
+ }
+ .productSection i{
+     color:#504949 ;
+     position: relative;
+ }
+ /* productSection end */
+
+ /* carouselSection start  */
+ .carouselSection{
+     margin-top: 20px;
+     height: 200px;
+}
+.carouselSection .container{
+    padding: 0;
+}
+ .carouselSection .carousel-item:nth-of-type(1){
+     background-image: url(../imgs/food1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:300px;
+     border-radius: 15px;
+ }
+ .carouselSection .carousel-item:nth-of-type(2){
+     background-image: url(../imgs/recipes.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:300px;
+     border-radius: 15px;
+ }
+ .carouselSection .carousel-item:nth-of-type(3){
+     background-image: url(../imgs/recipes.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:300px;
+     border-radius: 15px;
+ }
+ /* carouselSection end  */
+
+ /* importantProduct start  */
+ .importantProduct{
+     margin-top: 130px;
+ }
+ .importantProduct .boxes{
+     justify-content: space-between;
+     margin-bottom: 48px;
+ }
+ .importantProduct .box .subBox{
+    width: 100px;
+    height: 100px;
+    background-color: #E4BE96;
+    border-radius: 50%;
+    transform: perspective(0) translateZ(0);
+}
+ .importantProduct .box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.2s;
+}
+.importantProduct p{
+    color:#504949;
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: center;
+}
+.importantProduct a:hover{
+    text-decoration: none;
+    
+}
+.importantProduct a:hover img{
+    filter: grayscale(30%);
+    transform: perspective(200px) translateZ(10px);
+}
+ /* importantProduct end  */
+
+ /* footer start */
+ footer{
+     background-color: #402F27;
+     color: #DA9F7C;
+     padding-top: 8px;
+ }
+ footer .container{
+     justify-content: space-between;
+ }
+ footer ul{
+     list-style-type: none;
+ }
+ footer ul li{
+     display: inline-block;
+     margin-left: 20px;
+     padding:5px 10px;
+     border-radius: 50%;
+}
+ footer ul li:last-child{
+     margin-left: 0;
+ }
+ footer ul li a i{
+     color: #DA9F7C;
+     font-size: 12px;
+     font-size: 14px !important;
+ }
+ footer ul li:hover{
+    background-color: #E4BE96;
+     
+ }
+ footer ul li:hover a i{
+    color: #fff;
+ }
+ /* footer end */
+
+ /* classificationPart start (أيقونة جميع الفئات ) */
+ .classPart{
+    display: none; 
+    position: absolute; 
+    top: 120px; 
+    width: 100%; 
+    min-height: 100vh; 
+    color:#fff; 
+    background-color: #402F27;
+ }
+ .classPart .container{
+   padding-top: 50px;
+ }
+ .classPart a{
+    text-decoration: none; 
+    margin-top: 15px;
+    color: #DA9F7C;
+    display: block;
+ } 
+ .classPart a:hover{
+     color: #E4BE96;
+     text-shadow:0 0 1px #9A8174;
+     transform: perspective(500px) translateZ(10px);
+}
+ .classPart .showDetails{
+     width: 50%;
+     
+     min-height: 300px;
+     background-color: #fff;
+     position: absolute;
+     top:40px;
+     right: 320px;
+     z-index: 17;
+     padding: 30px;
+     border-radius: 20px;
+     box-shadow: 0 0 3px 0 #6c757d;
+}
+
+@media (max-width:1200px){
+    .classPart .showDetails{
+     
+      
+   
+        right: 210px;
+     
+       
+      
+        box-shadow: 5px 5px 3px 0 #6c757d;
+   }
+   .classPart{
+  
+  
+    min-height: 150vh; 
+  
+ }
+  
+
+}
+ .diaryDetails{
+     display: none;
+ }
+ 
+ .drinksDetails{
+     display: none;
+ }
+ .cleanDetails{
+     display: none;
+ }
+ .jamDetails{
+     display: none;
+ }
+ .riceDetails{
+     display: none;
+ }
+ .biscuitDetails{
+     display: none;
+ }
+ .macaroniDetails{
+     display: none;
+ }
+ .spicesDetails{
+     display: none;
+ }
+ .chepsiDetails{
+     display: none;
+ }
+ 
+ /* classificationPart end */
+ 
+ /* breadCrumb start */
+ .crumb{
+     padding: 20px 0;
+ }
+ .crumb .breadcrumb {
+     background-color: #fff;
+ }
+ .crumb .breadcrumb a{
+     color: rgb(218, 159, 124,0.6);
+ }
+ 
+ .breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    color: #6c757d;
+    content: "/";
+ }
+ /* breadCrumb end */
+
+
+ .diaryContentSection .boxes{
+     margin: 0 auto;
+     flex-wrap: wrap;
+     padding: 0 180px 30px 0;
+ }
+
+.diaryContentSection .box{
+  margin-left: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  box-shadow: 0 0 5px 0 #6c757d;
+  width:220px;
+  height: 260px;
+  overflow: hidden;
+}
+.diaryContentSection .box img{
+    width: 60%;
+}
+.diaryContentSection .box p{
+    margin-top: 10px;
+}
+.diaryContentSection .box img:hover{
+   animation: ball 2s ease-in-out  infinite;
+}
+.diaryContentSection .btn-success{
+ float: left;
+}
+
+/* animation for boxes */
+@keyframes ball {
+   0%{ transform:perspective(100px) translateZ(20px);}
+   50%{ transform:perspective(100px) translateZ(20px);}
+    100%{ transform:perspective(100px) translateZ(20px);} 
+}
+
+

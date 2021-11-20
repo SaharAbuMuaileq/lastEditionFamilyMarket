@@ -1,0 +1,96 @@
+section{
+ 
+  background-color: #E4BE96;
+  min-height:100vh;
+  display: flex; justify-content: center; align-items: center; 
+}
+a{
+    text-decoration: none;
+    color: #E4BE96 ;
+    border: 1px solid transparent; 
+    transition: 0.5s;
+    display: inline-block;
+    padding: 5px ;
+}
+a:hover{
+    background-color: #9a8174;
+    color: #402f27 !important;
+    border: 1px solid #E4BE96;
+    text-decoration: none;
+}
+
+div.style{
+    width: 40%;
+     margin: auto;
+    background-color: #62555d;
+    display: flex; 
+    flex-direction: column;
+    padding: 40px 40px;
+}
+@media (max-width:1200px) {
+    div.style{
+        width: 80%;
+
+    }  
+}
+div.style .form-group{
+    color: #62555D;
+}
+.phone input{
+    margin-top: 40px;
+}
+ .phone input , .btn{
+    border: 2px solid  #E4BE96;
+    width: 100%;
+    color: #E4BE96;
+    background-color: transparent;
+     
+}
+.phone input:focus{
+    background-color: #e4be96;
+    outline: none;
+    border: none;
+}
+.phone input::placeholder{
+    color: #fff;
+}
+.checked{
+    margin-bottom:40px;
+}
+.checked span{
+    color: #E4BE96;
+}
+    
+img{
+    width:100%;
+    animation: puls 1s ease-in-out infinite;
+    border-radius: 15px;
+}
+
+div.style .form-group:last-child{
+    margin-bottom: 0;
+}
+.btn{
+    transition: 0.2s;
+}
+.btn:hover{
+    color: #402f27!important;
+    background-color: #E4BE96;
+    border: 2px solid transparent;
+    
+}
+h1{
+    color: #da9f7c;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 43px;
+    text-shadow: 4px 3px  #62555D ;
+}
+
+
+/* animation for logo img */
+@keyframes puls {
+    0%{ box-shadow: 0 0 20px 10px #E4BE96 ;}
+    50%{ box-shadow: 0 0 20px 5px #E4BE96 ; }
+     100%{ box-shadow: 0 0 20px 10px #E4BE96;}}
+}

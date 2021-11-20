@@ -1,0 +1,183 @@
+/* 
+الاسم : سحر ابراهيم أبو معيلق
+11/11/2021
+family market-homePage
+ */
+
+ *{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: JF;
+}
+/* Global Definition start */
+@font-face {
+    font-family: JF;
+    src: url(../fonts/JF-Flat-regular.ttf);
+}
+.flex-row{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 80%;
+}
+/* Global Definition end */
+
+/* navBar start */
+/* .navBarSection {
+    background-color: #62555D;
+    height: 12vh;
+    padding-right: 120px;
+}
+
+.navBarSection .navbar .navbar-brand{
+    text-align: center;
+    margin-left: 30px;
+    width: 250px;
+}
+.navBarSection .navbar .navbar-brand img{
+    width:100%;
+}
+.navBarSection .form-control{
+    width:450px;
+    position: relative;
+    padding-left:50px;
+}
+.navBarSection .search{
+   position: absolute;
+   left: 350px;
+   background-color: #E4BE96;
+   border-radius: 0;
+   color: #fff;
+}
+.navBarSection .form-control:focus{
+   outline: none;
+}
+.navBarSection .menu{
+   list-style-type: none;
+   margin-top: 10px;
+}
+.navBarSection .menu li{
+   display: inline-block;
+
+}
+.navBarSection .menu li a{
+   color: #E4BE96;
+   margin-left:18px;
+   border-bottom: 2px solid transparent;
+   transition: 0.5s;
+}
+.navBarSection .menu li:first-child{
+   margin-right:70px;
+}
+.navBarSection .menu li:last-child{
+   margin-left: 0;
+}
+.navBarSection .menu li a:hover{
+   text-decoration: none;
+   color: #fff;
+   border-bottom: 2px solid #DA9F7C;
+   
+} */
+/* navBar end */
+/* productSection start */
+.productSection{
+   padding: 10px;
+   box-shadow: 0 0 5px 0 #504949 ;
+}
+.productSection h5{
+    color: #504949;
+}
+.productSection i{
+    color:#504949 ;
+    position: relative;
+}
+/* productSection end */
+
+ /* footer start */
+ footer{
+    background-color: #402F27;
+    color: #DA9F7C;
+    padding-top: 8px;
+}
+footer .container{
+    justify-content: space-between;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+    padding:5px 10px;
+    border-radius: 50%;
+}
+footer ul li:last-child{
+    margin-left: 0;
+}
+footer ul li a i{
+    color: #DA9F7C;
+    font-size: 12px;
+    font-size: 14px !important;
+}
+footer ul li:hover{
+   background-color: #E4BE96;
+    
+}
+footer ul li:hover a i{
+   color: #fff;
+}
+/* footer end */
+/* breadCrumb start */
+.crumb{
+    padding: 20px 0;
+}
+.crumb .breadcrumb {
+    background-color: #fff;
+}
+.crumb .breadcrumb a{
+    color: rgb(218, 159, 124,0.6);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+   float: right;
+   color: #6c757d;
+   content: "/";
+}
+/* breadCrumb end */
+
+.diaryContentSection .boxes{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 180px 30px 0;
+}
+
+.diaryContentSection .box{
+   margin-left: 10px;
+   padding: 10px;
+ margin-top: 30px;
+ box-shadow: 0 0 5px 0 #6c757d;
+ width:220px;
+ height: 260px;
+ overflow: hidden;
+}
+.diaryContentSection .box img{
+   width: 60%;
+}
+.diaryContentSection .box img:hover{
+    animation: ball 2s ease-in-out  infinite;
+ }
+.diaryContentSection .btn-success{
+float: left;
+}
+.diaryContentSection .box p{
+    margin-top: 10px;
+}
+
+
+/* animation for boxes */
+@keyframes ball {
+    0%{ transform:perspective(100px) translateZ(20px);}
+    50%{ transform:perspective(100px) translateZ(20px);}
+     100%{ transform:perspective(100px) translateZ(20px);} 
+ }
+ 

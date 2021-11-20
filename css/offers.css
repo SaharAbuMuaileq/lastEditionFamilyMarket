@@ -1,0 +1,365 @@
+
+.offers{
+    background-color: #fff3e6;
+    display: flex;
+   
+}
+.offers .off{
+    background-color:#E4BE96;
+    padding: 20px;
+}
+.offers .offer ,.offers .off{
+    margin: 10px;
+}
+.offers .off a{
+    text-decoration: none;}
+    a{
+    display: inline-block;
+    margin: 10px;
+   color: rgb(61, 61, 0);
+   transition: 0.5s;
+   font-size: 16px;
+    }
+    .title h2{
+        color: #402f27;
+    }
+  
+
+.offers .off{
+    min-height: 400px; 
+    width: 25%;
+}
+.offers .off h2{
+    color: #402f27;
+    
+}
+.offers .off h3{
+    color: #402f27;
+}
+.offers .off p{
+    display: flex;
+    flex-direction: column;
+}
+.offers .bxesss{
+    width: 100%;
+    background-color: #fff3e6;
+}
+.dis span{
+    color: #fff;
+    font-weight: bold;
+
+}
+.offers .box  .dis{
+  
+   text-align: center;
+   background-color: #28a745;
+   animation:linear 1s ease-in-out infinite;
+}
+.offers .offe ,.offers .off{
+    margin: 10px;
+}
+
+
+
+.offers .offe .box .dis{
+    background-color: #28a745;
+    text-align: center;
+}
+ /* .offers .electron{
+
+}  */
+.offers .electron .box .dis{
+    background-color: #28a745;
+    text-align: center;
+
+}
+.offers  .box .discount{
+    background-color: #FFF;
+    width: calc(100% / 4 - 40px);
+    margin: 15px;  
+}
+
+.offers .electron .box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.offers .electron .box .discount .price{
+    padding: 15px 20px;
+    box-shadow: 0 0 5px 0 #6c757d;
+    background-color: #fff;
+
+}
+.offers .offer .box .dis{
+    background-color: #28a745;
+    text-align: center;
+    
+}
+.offers .offer .box .discount{
+    background-color: #FFF;
+    width: calc(100% / 4 - 40px);
+    margin: 15px;
+}
+
+
+.offers .offer .box{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.offers .offer .box .discount .price{
+    padding: 15px 20px;
+    box-shadow: 0 0 5px 0 #6c757d;
+    background-color: #fff;
+
+}
+
+
+.offers .baskot .box .dis{
+    background-color: #28a745;
+    text-align: center;
+
+}
+.offers .baskot .box .discount{
+    background-color: #FFF;
+    width: calc(100% / 4 - 40px);
+    margin: 15px;
+  
+    
+}
+
+
+.offers .baskot .box{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.offers .baskot .box .discount .price{
+    padding: 15px 20px;
+    box-shadow: 0 0 5px 0 #6c757d;
+    background-color: #fff;
+
+}
+.offers .bb{
+    width: 100%;
+    padding: 40px 30px;
+    color: #402f27;
+    font-size: 30px ;
+    text-align: center;
+
+}
+.offers .labn .box .dis{
+    background-color: #28a745;
+    text-align: center;
+
+}
+.offers .labn .box .discount{
+    background-color: #FFF;
+    width: calc(100% / 4 - 40px);
+    margin: 15px;
+  
+    
+}
+.offers .labn .box{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.offers .labn .box .discount .price{
+    padding: 15px 20px;
+    box-shadow: 0 0 5px 0 #6c757d;
+    background-color: #fff;
+}
+
+
+.offers .all .box .dis{
+    background-color: #28a745;
+    text-align: center;
+
+}
+.offers .all .box .discount{
+    background-color: #FFF;
+    width: calc(100% / 4 - 40px);
+    margin: 15px;
+   
+}
+.offers .all .box{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.offers .all .box .discount .price{
+    padding: 15px 20px;
+    box-shadow: 0 0 5px 0 #6c757d;
+    background-color: #fff;
+}
+
+
+.offers .all .box .dis{
+    background-color: #28a745;
+    text-align: center;
+}
+.offers .all .box .discount{
+    background-color: #FFF;
+    width: calc(100% / 4 - 40px);
+    margin: 15px;
+   
+}
+.offers .labn .box{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.offers .labn .box .discount .price{
+    padding: 15px 20px;
+    box-shadow: 0 0 5px 0 #6c757d;
+    background-color: #fff;
+}
+
+
+
+.offers .cllean .box .dis{
+    text-align: center;
+    animation: linear 2s ease-in-out infinite;
+    -webkit-animation: linear 2s ease-in-out infinite;
+}
+.offers .cllean .box .discount{
+    background-color: #fff;
+    width: calc(100% / 4 - 40px);
+    margin: 15px;
+   
+    
+}
+.offers .cllean h2{
+    padding: 20px;
+}
+.offers .all h2{
+    padding: 20px;
+}
+.offers .offe h2{
+    padding: 20px;
+}
+.offers .electron h2{
+    padding: 20px;
+}
+.offers .cllean .box{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.offers .cllean .box .discount .price{
+    padding: 15px 20px;
+    box-shadow: 0 0 5px 0 #6c757d;
+    background-color: #fff;
+}
+
+.off a:hover{
+    box-shadow: 5px 5px 5px  #fff;
+   font-size: 20px;
+    color: #9a8174;
+}
+footer a:hover{
+    box-shadow: 0 0 0 transparent;
+}
+
+@media (max-width:1200px) {
+    .offers .off{
+        
+        width: 30%;
+    }
+    .offers .baskot .box .discount{
+      
+        width: calc(100% / 2 - 40px);  
+    }
+    .offers .offer .box .discount{
+     
+        width: calc(100% / 2 - 40px);
+      
+      
+        
+    }
+
+
+    .offers .electron .box .discount{
+      
+       
+        background-color: #E4BE96;
+        width: calc(100% / 2 - 40px);
+      
+      
+        
+    } 
+    .offers .labn .box .discount{
+      
+        width: calc(100% / 2 - 40px);
+       
+      
+        
+    }
+    .offers .all .box .discount{
+      
+        width: calc(100% / 2 - 40px);
+      
+       
+    }
+    .offers .cllean .box .discount{
+       
+        width: calc(100% / 2 - 40px);
+      
+       
+        
+    }
+    
+    
+}
+@media (max-width:700px) {
+    .offers .off{
+        
+        width: 50%;
+    }
+    .offers .offer .box .discount{
+     
+        width: calc(100% / 1 - 40px);
+      
+      
+        
+    }
+    .offers .baskot .box .discount{
+      
+        width: calc(100% / 1 - 40px);
+      
+      
+        
+    }
+    .offers .labn .box .discount{
+      
+        width: calc(100% / 1 - 40px);
+       
+      
+        
+    }
+    .offers .cllean .box .discount{
+       
+        width: calc(100% / 1 - 40px);
+      
+       
+        
+    }
+    .offers .all .box .discount{
+      
+        width: calc(100% / 1 - 40px);
+      
+       
+    }
+
+
+    .offers .electron .box .discount{
+      
+       
+        background-color: #E4BE96;
+        width: calc(100% / 1 - 40px);
+    } 
+      
+}
+
